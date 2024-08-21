@@ -1,0 +1,21 @@
+.pie-chart-container {
+  width: 100%;
+  max-width: 380px; 
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+  box-sizing: border-box;
+}
+
+.pie-chart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%; 
+  max-width: 400px; 
+  box-sizing: border-box;
+  background-color: white;
+}

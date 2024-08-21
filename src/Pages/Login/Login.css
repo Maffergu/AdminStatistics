@@ -1,0 +1,134 @@
+.horizontal-stack {
+   display: flex;
+   justify-content: center;
+   border-radius: 80px;
+   padding: 20px; 
+   width: 100%;
+   box-sizing: border-box; 
+}
+
+.wrapper {
+   width: 100%;
+   max-width: 800px;
+   background: white;
+   color: #007cff;
+   border-radius: 10px;
+   padding: 30px 40px 50px; 
+   box-sizing: border-box; 
+   
+}
+
+
+@media (min-width: 768px) {
+   .wrapper {
+       padding-top: 100px;
+   }
+}
+
+
+@media (max-width: 768px) {
+   .wrapper {
+       width: 90%;
+       padding: 20px;
+   }
+
+   .wrapper h1 {
+       font-size: 40px;
+   }
+
+   .input-box {
+       height: 70px;
+   }
+
+   .input-box input {
+       font-size: 24px;
+   }
+
+   .wrapper button {
+       width: 80%;
+       height: 60px;
+       font-size: 28px;
+   }
+   .responsive-image {
+      display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+   .wrapper h1 {
+       font-size: 30px;
+   }
+
+   .input-box {
+       height: 60px;
+   }
+
+   .input-box input {
+       font-size: 20px;
+   }
+
+   .wrapper button {
+       width: 90%;
+       height: 50px;
+       font-size: 24px;
+   }
+}
+
+.wrapper h1 {
+   font-size: 50px;
+   text-align: center;
+   color: black;
+}
+
+.input-box {
+   position: relative;
+   width: 100%;
+   height: 80px;
+   margin: 30px 0;
+}
+
+.input-box input {
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+   border: 2px solid gray;
+   border-radius: 40px;
+   font-size: 30px;
+   padding-left: 20px;
+   padding-right: 60px;
+}
+
+.input-box input::placeholder {
+   color: gray;
+}
+
+.input-box .icon {
+   position: absolute;
+   right: 20px;
+   color: #007cff;
+   top: 25%;
+   transform: translate(-50%);
+   font-size: 20px;
+}
+
+.hover-button {
+   width: 70%;
+   height: 70px;
+   background: #007cff;
+   border: none;
+   outline: none;
+   border-radius: 40px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+   cursor: pointer;
+   font-size: 35px;
+   color: white;
+   font-weight: 400;
+   transition: background-color 0.3s ease; 
+}
+
+.hover-button:hover {
+   background-color: #0056b3; 
+}

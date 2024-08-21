@@ -1,0 +1,102 @@
+/* navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0352a6;
+    color: white;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust spacing between profile picture and text */
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  .profile-role {
+    font-size: 14px;
+    color: #aaa;
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 10px;
+    }
+  
+    .navbar-brand h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  
+    .profile-picture {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .profile-name {
+      font-size: 14px;
+    }
+  
+    .profile-role {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-brand h1 {
+      font-size: 20px;
+    }
+  
+    .profile-picture {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .profile-name {
+      font-size: 13px;
+    }
+  
+    .profile-role {
+      font-size: 11px;
+    }
+  }
+  
