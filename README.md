@@ -1,3 +1,8 @@
+# Admin Statistics
+Login to admin app that allows you to view a dashboard that displays information about revenue, active users and total users. 
+Built with dummy data, created for front-end assignment purpose.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Coding tools
+<div align="center">
+<p> 
+    <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+   
+   
+
+    
+</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
+
